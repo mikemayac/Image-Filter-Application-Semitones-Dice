@@ -1,0 +1,109 @@
+# Archivos y directorios específicos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Entornos virtuales de Python
+venv/
+ENV/
+env/
+.env
+.venv
+env.bak/
+venv.bak/
+pythonenv*
+
+# Archivos y directorios específicos de PyCharm
+.idea/
+.idea_modules/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+atlassian-ide-plugin.xml
+
+# Archivos de configuración local
+instance/
+.webassets-cache
+
+# Archivos de cobertura de pruebas
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Documentación generada
+docs/_build/
+doc/_build/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Archivos específicos de sistemas operativos
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# Archivos de log
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos de ambiente
+.env
+.envrc
+.direnv
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Archivos de datos y secretos que no deberían ser compartidos
+*.csv
+*.dat
+*.out
+*.pid
+*.seed
+*.pid.lock
+*.secret
