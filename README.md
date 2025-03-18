@@ -37,7 +37,7 @@ En el archivo **requirements.txt** se listan las dependencias necesarias (al men
 
 1. Dentro del entorno virtual y en la carpeta donde se encuentra el archivo principal (`dithering.py` o el nombre de tu script), ejecuta:
    ```bash
-   streamlit run dithering.py
+   streamlit run semitonos.py
    ```
 2. Automáticamente se abrirá tu navegador mostrando la interfaz de la aplicación. Si no se abre, puedes copiar la URL que aparece en la terminal y pegarla en tu navegador.
 
